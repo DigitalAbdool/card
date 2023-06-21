@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Container{
+    position: absolute;
+    height: 868px;
+    width: 550px;
+    left: 65px;
+    top: 49px;
+    border-radius: 0px;
+    background: #23252C;
+}
+
+.Info-img img{
+    position: absolute;
+    height: 317px;
+    width: 317px;
+    left: 116px;
+    top: 44px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.Info-content{
+    position: absolute;
+    height: 399px;
+    width: 317px;
+    left: 116px;
+    top: 361px;
+    background: #1A1B21;
+}
+
+.Info-content h2{
+    text-align: center;
+    font-family: inter sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px; 
+    line-height: 30px; 
+    color: #ffffff;
+    margin: 7px;
+}
+
+.Info-content > h3{
+    font-family: inter,sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #f3bf99;
+}
+
+.Info-content > p{
+    font-family: inter, sans-serif, serif;
+    font-weight: 400px;
+    font-size: 11px;
+    font-style: normal;
+    line-height: 150%;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.Info-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 10px;
+}
+
+.Email-btn{
+   padding: 6px 20px 6px 20px;
+   border: 1px solid #D1D5DB;
+   border-radius:6px; 
+   background: #ffffff;
+   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.In-btn{
+    padding: 6px 20px;
+    border: 1px solid ;
+    border-radius:6px; 
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); 
+}
+
+.cnt-wrapper{
+    position: absolute;
+    width: 247px;   
+    height: 201px;
+    top: 535x;
+    left: 50px;
+
+}
+
+.Info-Abt{
+    margin-top: 30px;
+    margin-bottom: 27px;
+}
+
+.Info-Abt h3{
+    font-family: inter, sans-serif, serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+    color: #f5f5f5;
+}
+
+.Info-Abt p{
+    font-family: inter,sans-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    color: #dcdcdc;
+}
+
+.Info-intts h3{
+    font-family: inter, sans-serif, serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+    color: #f5f5f5;
+}
+
+.Info-intts p{
+    font-family: inter,sans-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    color: #dcdcdc;
+}
+
+.footer-wrapper{
+    position: absolute;
+    height: 64px;
+    width: 317px;
+    left: 116px;
+    top: 760px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.Github{
+    position: absolute;
+    left: 61%;
+    right: 34.45%;
+    top: 12%;
+    bottom: 7.32%;
+}
+
+.Instagram{
+   position: absolute;
+   left: 52%; 
+   right: 43%;
+   top: 12%;
+   bottom: 7.32%;
+}
+
+.Twitter{
+    position: absolute;
+    left: 34.36%;
+    right: 61.09%;
+    top: 12%;
+    bottom: 7.32%;
+}
+
+.facebook{
+    position: absolute;
+    top: 12%;
+    bottom: 7.32%;
+    left:43.27%;
+    right: 52.18%;
+}
